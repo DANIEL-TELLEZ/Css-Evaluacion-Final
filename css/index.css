@@ -55,7 +55,9 @@ header  li a {
 @media screen and (max-width: 445px) {
     header li {
          
-        width:100%;
+        width:25%;
+        display: block;
+    margin: auto;
         
     }
 }
@@ -90,10 +92,12 @@ header  li a {
 
 
 @media screen and (max-width: 768px) {
-    .cimgp {
+    header section img {
          
          
-    width: 300%;
+    display: block;
+    margin: auto;
+    width: 150%;
         
     }
 }
@@ -182,15 +186,6 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
 /*Columnas Responsive base del proyecto*/
 
 * {
@@ -227,3 +222,4 @@ footer{
 
 
 /*------------------------------------------------------------------*/
+

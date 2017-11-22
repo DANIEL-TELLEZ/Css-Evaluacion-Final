@@ -24,7 +24,7 @@ header{
     
 }
 
-#titulo{
+#paisajest{
   color:#FFFFFF;
   text-shadow: 2px 2px #02010a;
   display:flex;
@@ -53,23 +53,21 @@ header  li a {
 
 
 @media screen and (max-width: 445px) {
-    header li {
-         
-        width:100%;
+    header li {         
+        width:25%;
+        display: block;
+    margin: auto;
         
     }
 }
 
 @media screen and (max-width: 768px) {
-    .rcentr {
-         
-         
-    width: 100%;
-    text-align: center;
+    #paisajest {              
+      display: block;
+    margin: auto;
         
     }
 }
-
 /*----------------------------------------------------------------*/
 
 /*Estilos galerias*/
